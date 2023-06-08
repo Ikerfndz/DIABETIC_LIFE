@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Diabetic Life</string>
+    <string name="ayudaPrincipal">¡Importante!
+
+Ten en cuenta que las dosis proporcionadas por esta aplicación son aproximadas y están sujetas a múltiples factores externos. La diabetes es una condición que varía en cada persona y puede ser influenciada por diversos aspectos, como la alimentación, la actividad física, el estrés y otros factores individuales.
+
+Las dosis calculadas son estimaciones basadas en datos ingresados y algoritmos generales. Sin embargo, es fundamental recordar que cada organismo es único y puede reaccionar de manera diferente. Por lo tanto, es esencial consultar y seguir las indicaciones de tu médico o profesional de la salud en relación con tu tratamiento y ajustes de dosis.
+
+Esta aplicación es una herramienta de apoyo, pero no reemplaza la opinión médica ni el seguimiento profesional. Recuerda que la atención médica personalizada es fundamental para el control y manejo adecuado de la diabetes.
+
+Siempre mantén una comunicación abierta con tu equipo médico, comparte cualquier cambio relevante en tu condición y sigue las pautas proporcionadas por ellos. Juntos, podrán adaptar tu tratamiento de manera óptima y brindarte el apoyo necesario para un mejor control de tu diabetes.
+
+¡Cuida de ti y tu salud!</string>
+    <string name="ayudaCorreccion">*Nos gustaría recordarte que el factor de corrección utilizado para determinar la cantidad de glucemia que disminuye por cada unidad de insulina puede variar según diferentes factores. Es esencial comprender que este valor es solo una estimación y puede requerir ajustes personalizados para satisfacer tus necesidades específicas.
+
+Factores como la sensibilidad individual a la insulina, la hora del día, la actividad física, la ingesta de alimentos y otros pueden influir en cómo tu cuerpo responde a la insulina y en la cantidad de glucemia que se reduce. Por lo tanto, es importante recordar que el factor de corrección que se te proporciona es una guía inicial y puede requerir ajustes a lo largo del tiempo.
+
+Recomendamos encarecidamente que trabajes en estrecha colaboración con tu equipo médico, como tu endocrinólogo o educador en diabetes, para realizar ajustes adecuados en tu plan de tratamiento. Ellos podrán ayudarte a determinar el factor de corrección más preciso para ti, teniendo en cuenta tu situación individual y los cambios que puedan surgir.
+
+Recuerda, el control de la diabetes es altamente personalizado y requiere adaptaciones según tus necesidades cambiantes. Nunca dudes en comunicarte con tu equipo médico si tienes alguna pregunta o inquietud.
+
+¡Cuídate y sigue trabajando para lograr un buen control de la diabetes!*</string>
+    <string name="user">Mail*</string>
+    <string name="nameuser">Nombre*</string>
+    <string name="apellidos">Apellidos*</string>
+    <string name="telefono">Telefono*</string>
+    <string name="fechaNacimiento">Fecha Nacimiento (dd/mm/yyyy)</string>
+    <string name="registroButton">Aquí</string>
+    <string name="password">Contraseña*</string>
+    <string name="registroTxtLogin">¿No estas registrado? Registrate ahora</string>
+    <string name="registro">Registro</string>
+    <string name="registrarse">Registrarme</string>
+    <string name="passwordRepe">Confirme Contraseña*</string>
+
+    <string-array name="tipos_dosis">
+        <item>Rapida</item>
+        <item>Corta</item>
+        <item>Intermedia</item>
+        <item>Prolongada</item>
+    </string-array>
+</resources>

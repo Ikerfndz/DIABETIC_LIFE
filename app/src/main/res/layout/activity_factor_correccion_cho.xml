@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FactorCorreccionCHO"
+    android:background="@color/fondoPantallas">
+
+    <Button
+        android:id="@+id/atrasCHOButton"
+        android:layout_width="134dp"
+        android:layout_height="63dp"
+        android:backgroundTint="@color/purple"
+        android:text="Atras"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.057"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+    <LinearLayout
+        android:layout_width="407dp"
+        android:layout_height="620dp"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.855">
+
+
+        <TextView
+            android:id="@+id/dosisDiariaCHOText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="COBERTURA CHO"
+
+            android:textAlignment="center"
+            android:textColor="@color/purple"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/unidadesChoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Unidades Dosis Diaria"
+            android:background="@drawable/custom_edittext"
+
+            android:drawablePadding="8dp"
+
+
+            android:padding="8dp"
+            android:textColor="@color/purple"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <EditText
+            android:id="@+id/gCHOChoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="g CHO*"
+            android:background="@drawable/custom_edittext"
+
+            android:drawablePadding="8dp"
+
+
+            android:padding="8dp"
+            android:textColor="@color/purple"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+        <Button
+            android:id="@+id/CalculoCHOButton"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/purple"
+            android:text="CALCULAR"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+        <TextView
+            android:id="@+id/coreccionChoText"
+            android:layout_width="386dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textAlignment="center"
+            android:textColor="@color/purple"
+            android:textSize="36sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/zonaChoTxt"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:hint="Zona*"
+            android:background="@drawable/custom_edittext"
+
+            android:drawablePadding="8dp"
+
+
+            android:padding="8dp"
+            android:textColor="@color/purple"
+            android:textColorHighlight="@color/cardview_dark_background" />
+
+
+        <Button
+            android:id="@+id/InsertarDosisCHOButton"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginTop="30dp"
+            android:backgroundTint="@color/purple"
+            android:text="Registrar esta dosis"
+            android:textSize="18sp"
+            app:cornerRadius="20dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

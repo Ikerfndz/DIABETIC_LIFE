@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BuscarDosis"
+    android:background="@color/fondoPantallas">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavigationView"
+        android:layout_alignParentBottom="true"
+
+        android:background="@drawable/bottom_background"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:elevation="2dp"
+        app:menu="@menu/bottom_menu"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@color/white"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"/>
+
+
+    <TextView
+        android:id="@+id/dosisText"
+        android:layout_width="279dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="65dp"
+        android:layout_marginBottom="639dp"
+        android:text="BUSCAR DOSIS"
+        android:textAlignment="center"
+        android:textColor="@color/purple"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:dateTextAppearance="@style/CalendarTextStyle"
+        android:layout_width="314dp"
+        android:layout_height="308dp"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="107dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="320dp" />
+
+    <ListView
+        android:id="@+id/lista"
+        android:layout_width="262dp"
+        android:background="#E4E7FE"
+        android:layout_height="133dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:divider="@color/purple"
+        android:dividerHeight = "5dp"
+
+
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="420dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="120dp"
+        android:choiceMode="singleChoice"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.449"
+        app:layout_constraintStart_toStartOf="parent"
+
+        app:layout_constraintVertical_bias="0.452" />
+
+
+</RelativeLayout>
+

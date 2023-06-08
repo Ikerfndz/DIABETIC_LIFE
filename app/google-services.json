@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "191420267116",
+    "firebase_url": "https://bddiabetic-default-rtdb.firebaseio.com",
+    "project_id": "bddiabetic",
+    "storage_bucket": "bddiabetic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191420267116:android:d25acff7701170004fb649",
+        "android_client_info": {
+          "package_name": "com.example.diabeticlife"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191420267116-2uuvvjkiqcksikvr6jhtekr2jo2j0dsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAqGZtIlVewMYPNhE2rh3UEll0Lyug-0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191420267116-2uuvvjkiqcksikvr6jhtekr2jo2j0dsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:191420267116:android:cbb20bfb97842e894fb649",
+        "android_client_info": {
+          "package_name": "com.example.proyecto2ikerfernandez"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "191420267116-2uuvvjkiqcksikvr6jhtekr2jo2j0dsn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAqGZtIlVewMYPNhE2rh3UEll0Lyug-0I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "191420267116-2uuvvjkiqcksikvr6jhtekr2jo2j0dsn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

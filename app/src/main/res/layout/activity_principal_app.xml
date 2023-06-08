@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PrincipalApp"
+    android:background="@color/fondoPantallas">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/bottomNavigationView"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/bottom_background"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginTop="30dp"
+        android:elevation="2dp"
+        app:menu="@menu/bottom_menu"
+        app:itemIconSize="30dp"
+        app:itemIconTint="@color/white"
+        app:itemRippleColor="@android:color/transparent"
+        app:labelVisibilityMode="unlabeled"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        app:cardCornerRadius="30dp"
+        app:cardElevation="20dp"
+        android:background="@drawable/custom_edittext"
+        android:backgroundTint="@color/purple">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical"
+            android:padding="34dp">
+
+            <TextView
+                android:id="@+id/loginText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="36sp"
+                android:textStyle="bold"
+                android:text="BIENVENID@"/>
+            <TextView
+                android:id="@+id/Text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Esta es la cantidad de UNIDADES restandes de tu *dosis diaria* para el dia de hoy:"
+
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="40dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Textfecha"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:layout_marginTop="15dp"
+                android:textSize="16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textViewDosisDiaria"
+                android:layout_width="286dp"
+                android:layout_height="69dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+
+                android:layout_marginTop="40dp"
+                android:layout_marginEnd="238dp"
+                android:background="@color/white"
+                android:gravity="center"                 android:textColor="@color/purple_masOscurro"
+                android:textSize="36sp"
+                android:textStyle="bold" />
+
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/Textaviso"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+
+        android:layout_marginStart="31dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="111dp"
+        android:text="@string/ayudaPrincipal"
+        android:textAlignment="center"
+        android:textColor="@color/purple_masOscurro"
+        android:textSize="10sp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
